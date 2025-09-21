@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>العدالة — مساعدة الحيوانات</title>
+  <meta name="description" content="مبادرة العدالة لمساعدة الحيوانات: إنقاذ، علاج، تبني، وتوعية.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav" aria-label="التنقل">
+      <div class="logo">
+        <span class="mark" aria-hidden="true"></span>
+        <h1 title="العدالة">العدالة</h1>
+      </div>
+      <nav class="top-links">
+        <a class="btn" href="#donate">تبرّع الآن</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="subtitle">مبادرة أهلية غير ربحية</p>
+          <h2 class="title">العدالة — معاً لنصرة الحيوانات وإحياء الرحمة</h2>
+          <p class="subtitle">نُنقذ، نُعالج، ونوفّر بيوتاً دافئة للتبنّي. تبرّعك أو تطوّعك يصنع الفرق اليوم قبل غد.</p>
+          <div class="cta">
+            <a href="#donate" class="btn primary">تبرّع الآن</a>
+            <a href="#volunteer" class="btn ghost">سجّل كمتطوّع</a>
+            <a href="#report" class="btn ghost">أبلغ عن حالة</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="إحصاءات">
+          <div class="stat"><strong>+250</strong><span>حالة إنقاذ خلال آخر 12 شهراً</span></div>
+          <div class="stat"><strong>+180</strong><span>علاج/لقاح مُكتمل</span></div>
+          <div class="stat"><strong>+95</strong><span>تبنّي ناجح لحيوانات مشرّدة</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Sections: What we do, Donate, Volunteer, Report -->
+    <!-- … محتوى باقي الأقسام كما في النسخة السابقة … -->
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="subtitle" style="margin-top:18px">© <span id="year"></span> العدالة — كل الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
